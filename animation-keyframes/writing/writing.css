@@ -1,0 +1,45 @@
+body {
+    background: #ffb347;
+    background: linear-gradient(to left, #ffb347, #ffcc33);
+    font-family: monospace;
+}
+
+h1 {
+    position: relative;
+    float: left;
+    font-size: 2.3rem;
+    /* a medida REM usa o padrao de fonte 16px como referiencia, a nao ser que um novo tamanho seja definido na tag HTML ou * */
+}
+
+h1 span {
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 0;
+    background-color: white;
+    border-left: .1em solid #000;
+    /* O box sizing coloca tudo dentro dele - padding e margens */
+    box-sizing: border-box;
+    animation: typing 17s steps(19, end), blink-caret 1s step-end infinite;
+}
+
+/* Animação 1 */
+@keyframes typing {
+    from {
+        width: 100%;
+    }
+
+    to {
+        width: 0;
+    }
+}
+
+/* Animação do Cursor */
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: black;
+    }
+}

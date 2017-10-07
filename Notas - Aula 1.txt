@@ -18,10 +18,12 @@ cd "nome da pasta" - acessa a pasta criada
 touch "nome" - cria arquivos dentro de uma pasta. Pode criar vários separando os nomes com espaço.
 explorer . - abre a pasta atual (WIN)
 open . - abre a pasta atual (MAC)
-git status - mostra tudo o que foi alterado
+
 cd /*arrasta a pasta* - acessa a pasta arrastada
+git status - mostra tudo o que foi alterado
 git add . - adiciona tudo dentro da pasta no git
-git commit -m "nome" - ?
+git commit -m "nome" - adiciona as mudança
+git push origin master - adiciona os arquivos no GIT
 
 Visual Studio Code - alternativa ao Sublime. ALT + setas fazem mágica
 

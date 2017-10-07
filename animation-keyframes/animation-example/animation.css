@@ -1,0 +1,71 @@
+div {
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    background-color: black;
+}
+
+/* 
+ANIMATION
+
+animation-name: é algo obrigatório. O nome é especificada nos @keyframes
+animation-duration: é algo obrigatório. Tempo de duração em segundos ou milisegundos.
+animation-timing-function: acelerações da minha animação
+animation-delay: é o tempo de delay para que a animação se inicie
+animation-iteration-count: determina o número de vezes que a animação vai se repetir. 1 é o padrão.
+animation-direction: especifica se ao final da animação ela deve ser reiniciada no fluxo normal, no sentico contrário ou de forma alternada.
+animation-play-state: define se a animação está rodando (running - o que é o padrão) ou se está pausada.
+*/
+
+.first-mode {
+    -webkit-animation: animation-one 5s linear infinite alternate;
+    -moz-animation: animation-one 5s linear infinite alternate;
+    animation: animation-one 5s linear infinite alternate;
+}
+
+.second-mode {
+    -webkit-animation: animation-two 5s ease-in infinite reverse;
+    -moz-animation: animation-two 5s ease-in infinite reverse;
+    animation: animation-two 5s ease-in infinite reverse;
+}
+
+/* Animação Um */
+@keyframes animation-one {
+    from {
+        background-color: black;
+        width: 100px;
+    }
+
+    to {
+        background-color: yellow;
+        width: 300px;
+        height: 200px;
+    }
+}
+
+/* Animação Dois */
+@keyframes animation-two {
+    0% {
+        background-color: black;
+        width: 100px;
+    }
+
+    25% {
+        background-color: green;
+    }
+
+    50% {
+        background-color: blue;
+        height: 400px;
+    }
+
+    75% {
+        background-color: yellow;
+    }
+
+    100% {
+        background-color: red;
+        width: 200px;
+        height: 200px;
+    }
+}
