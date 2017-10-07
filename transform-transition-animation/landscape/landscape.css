@@ -6,7 +6,7 @@ html, body {
 
 body {
     background-color: #25354e;
-    animation: color_sky 10s infinite;
+    animation: color_sky 8s infinite;
 }
 
 .sun {
@@ -97,12 +97,18 @@ body {
 /* Animação - Cor do céu */
 
 @keyframes color_sky {
-    to, from {
+    0%{
         background-color: #25354e;
     }
 
-    to {
+
+    70% {
         background-color: skyblue;
+    }
+
+    100% {
+
+        background-color: #25354e;
     }
 }
 
