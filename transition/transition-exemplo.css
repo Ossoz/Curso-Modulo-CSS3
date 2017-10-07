@@ -1,0 +1,66 @@
+input[type="text"],
+input[type="email"] {
+    width: 200px;
+    height: 57px;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 5px;
+    outline: none;
+    display: block;
+    margin-bottom: 15px;
+
+/* CSS TRANSITION
+   4 PROPRIEDADES DE CONFIGURAÇÃO. As que tem * são obrigatorias. As demais
+   assumem um valor default. A TRANSIÇÃO PRECISA ESTAR NO ELEMENTO PAI, para entrar e sair com efeito.
+   
+   1*- transition-property - (width) Nome da Propriedade sobre a qual será aplicada a transição. É do CSS3 e pode ser usado na maior parte, mas por segurança, manter os prefixos.
+   
+   */
+/* -webkit-transition-property: width;
+-moz-transition-property: width;
+transition-property: width; */
+
+/* 2*- transition-duration - duração do efeito em segundos. o padrão é 0 */
+/* -webkit-transition-duration: 1s;
+-moz-transition-duration: 1s;
+transition-duration: 1s; */
+
+/* 3- transition-time-function - como a transição progride no tempo. O padrão é o EASE. Aqui vamos usar LINEAR  */
+/* -webkit-transition-time-function: linear;
+-moz-transition-time-function: linear;
+transition-time-function: linear;
+
+Há uma ABREVIAÇÃO para todas essas propriedades:
+transition: |property| |duration| |time-function| |delay|
+
+*/
+
+-webkit-transition: width 1s linear, border 2s ease-in, background-color 2s;
+-moz-transition: width 1s linear, border 2s ease-in, background-color 2s;
+transition: width 1s linear, border 2s ease-in, background-color 2s;
+
+} 
+
+/* 4- transition-delay - define apartir de quanto tempo (em segundos) a transição começará  */
+
+input[type="text"]:focus {
+    /* Quando vc clicar, vai de 200px para 300px */
+    width: 300px;
+    border: 1px solid blue;
+    background-color: lightslategray;
+}
+
+button {
+    padding: 10px 30px;
+    background-color: skyblue;
+    color: blue;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    transition: all 2s;
+}
+
+button:hover {
+    background-color: blue;
+    color: skyblue;
+    font-size: 24px;
+}
