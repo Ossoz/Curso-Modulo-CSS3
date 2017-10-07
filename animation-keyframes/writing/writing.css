@@ -1,6 +1,5 @@
 body {
     background: #ffb347;
-    background: linear-gradient(to left, #ffb347, #ffcc33);
     font-family: monospace;
 }
 
@@ -16,7 +15,7 @@ h1 span {
     top:0;
     right: 0;
     width: 0;
-    background-color: white;
+    background-color: #ffb347;
     border-left: .1em solid #000;
     /* O box sizing coloca tudo dentro dele - padding e margens */
     box-sizing: border-box;
