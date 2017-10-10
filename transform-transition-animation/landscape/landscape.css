@@ -194,14 +194,14 @@ body {
     }
 
     70% {
-        left: 250px;
+        left: 650px;
     }
 
     75% {
-        left: -380px
+        left: -50px
     }
 
     100% {
-        left: -480px
+        left: -280px
     }
 }
