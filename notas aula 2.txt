@@ -1,0 +1,19 @@
+Flex Box - Estudar em casa
+
+O Flex Box e setado no container e não nos itens. Quando isso acontece ele aplica em todas as tags filho.
+O Flex Box pode ser aplicado também nos itens individualmente. 
+
+BOOTSTRAP 4:
+
+O Bootstrap tem um documentação bem simples. E usa a libary do JQuery. O Bootstrap 4 é para browsers mais modernos, pq usa o flex box.
+O Bootstrap 3 usa FLOAT, que é para IE 10 e abaixo e versoes antigas de outros browsers.
+
+4 FORMAS DE DOWNLOADÇ
+
+1) Compilado: é a versão de distribuição. Para quem quer usar sem alterar nada ou pouca coisa. Perfeita para iniciantes ou se vc quer algo rápido.
+2) Souce: versão de desenvolvimento. para quem quer mexer mais a fundo.
+3) CDN: Versão que importa direto do site do Bootstrap. É usado apenas para estudar, pois depende totalmente do site alheio.
+
+4) Package Managers: a forma mais profissional. Instala pacotes na Máquina para usar códigos que outras pessoas desenvolveram.
+
+NPM - É um intalador de pacotes (ex. Plug in do Photoshop)

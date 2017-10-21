@@ -1,4 +1,4 @@
-Preparação do ambiente de front end:
+﻿Preparação do ambiente de front end:
 
 Node.JS - Servidor
 
@@ -20,10 +20,11 @@ explorer . - abre a pasta atual (WIN)
 open . - abre a pasta atual (MAC)
 
 cd /*arrasta a pasta* - acessa a pasta arrastada
+git clone + caminho do Git Hub - Clona o Repositorio selecionado
 git status - mostra tudo o que foi alterado
 git add . - adiciona tudo dentro da pasta no git
-git commit -m "nome" - adiciona as mudança
-git push origin master - adiciona os arquivos no GIT
+git commit -m "nome" - identifica as mudanças feitas
+git push origin master - adiciona os arquivos EFETIVAMENTE no GIT. precisa informar login e senha
 
 Visual Studio Code - alternativa ao Sublime. ALT + setas fazem mágica
 
