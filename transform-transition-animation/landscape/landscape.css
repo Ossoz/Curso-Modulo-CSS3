@@ -17,7 +17,7 @@ body {
     height: 200px;
     border-radius: 100%;
     background-color: #e67e22;
-    animation: sun_animation 10s reverse infinite;
+    animation: sun_animation 10s ease-in-out infinite;
 }
 
 .moon {
@@ -48,7 +48,7 @@ body {
     height: 200px;
     border-radius: 100%;
     background-color: #25354e;
-    animation: moon_dark_side 10s infinite;
+    animation: color_sky 10s infinite;
 }
 
 .cloud {
@@ -94,6 +94,7 @@ body {
     width: 100%;
     height: 33%;
     background-color: #00673a;
+    animation: ground linear 10s infinite;
 }
 
 /* Animação - Cor do céu */
@@ -123,25 +124,25 @@ body {
 @keyframes sun_animation {
     0%{
         top: 70%;
-        left: 5%;
+        left: 75%;
         background-color: #e67e22;
     }
 
     35% {
         top: 5%;
-        left: 5%;
+        left: 75%;
         background-color: #ffec63;
     }
 
     70% {
         top: 5%;
-        left: 75%;
+        left: 5%;
         background-color: #ffec63;
     }
 
     100% {
         top: 80%;
-        left: 75%;
+        left: 5%;
         background-color: #e67e22;
     }
 }
@@ -165,26 +166,6 @@ body {
     }
 }
 
-/* Animação Lado Escuro da Lua */
-@keyframes moon_dark_side {
-    0%{
-        background-color: #25354e;
-    }
-
-
-    35% {
-        background-color: #374d6b;
-    }
-
-    70% {
-        background-color: skyblue;
-    }
-
-    100% {
-
-        background-color: #25354e;
-    }
-}
 
 /* Animação Nuvem */
 
@@ -203,5 +184,25 @@ body {
 
     100% {
         left: -280px
+    }
+}
+
+@keyframes ground {
+    0%{
+        background-color: #005807;
+    }
+
+
+    35% {
+        background-color: #28a52e;
+    }
+
+    70% {
+        background-color: rgb(135, 233, 110);
+    }
+
+    100% {
+
+        background-color: #005807;
     }
 }
