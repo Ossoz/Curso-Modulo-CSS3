@@ -27,14 +27,10 @@ open . - abre a pasta atual (MAC)
 cd /*arrasta a pasta* - acessa a pasta arrastada
 git clone + caminho do Git Hub - Clona o Repositorio selecionado
 git status - mostra tudo o que foi alterado
-git add . - adiciona tudo dentro da pasta no git
+git add . - adiciona tudo dentro da pasta no git, mas não sobe no GIT HUB
 git commit -m "nome" - identifica as mudanças feitas
 git push origin master - adiciona os arquivos EFETIVAMENTE no GIT. precisa informar login e senha
 
-
-INICIANDO UM PROJETO:
-
-npm init - inicia a configuração de um projeto novo. Cria um project.json com todas as infos e licenças do projeto.
 
 Visual Studio Code - alternativa ao Sublime. ALT + setas fazem mágica
 

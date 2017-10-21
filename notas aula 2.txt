@@ -16,5 +16,8 @@ O Bootstrap 3 usa FLOAT, que é para IE 10 e abaixo e versoes antigas de outros 
 
 4) Package Managers: a forma mais profissional. Instala pacotes na Máquina para usar códigos que outras pessoas desenvolveram.
 
+INICIANDO UM PROJETO:
+npm init - inicia a configuração de um projeto novo. Cria um project.json com todas as infos e licenças do projeto.
+
 NPM - É um intalador de pacotes (ex. Plug in do Photoshop)
-Para instalar o npm pelo terminal: $ npm install bootstrap@4.0.0-beta.2 (o $ indica que é um comando para Terminal)
+Para instalar o npm pelo terminal: $ npm install bootstrap@4.0.0-beta.2 --save (o $ indica que é um comando para Terminal)
