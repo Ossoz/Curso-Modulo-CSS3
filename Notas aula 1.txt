@@ -4,18 +4,23 @@ Node.JS - Servidor
 
 GIT - um software que mostra as ultimas alterações no seu código e permite voltar uma mudança já feita. Para windowa, usar o GIT Bash (é o TERMINAL do Windows que não é o CMD)
 
+GIT HUB - Ao criar uma pasta, vc pode ativar a opção GIT Ignore (no final da pagina) que vai fazer com que ele não olhe para uma determinada ela.
+
 _COMANDOS do GIT BASH_
 
-Como CLONAR um projeto na máquina - copiar o endereço que aparece no botão verde no Terminal ou no Git Bash
+COMO FAZER O GIT IGNORAR UMA PASTA:
+
+Abrir o terminal. Acessar a raiz do repositorio onde esta a pasta a ser ignorada. No terminal, digitar vi .gitignore e, depois, :wq para sair e salvar. Ao dar um ls -la, o gitignore será mostrado.
 
 PWD - Mostra o caminho que você está
 LS - mostra quais pastas tem no diretório que vc está
-LS -LA - Mostra arquivos visíveis e ocultos da pasta que vc se encontra
+LS -LA - Mostra arquivos visíveis e ocultos da pasta que vc se encontra. Ao encontrar um arquivo .git, mostra que tem um GIT assistindo essa pasta.
 CTRL+L - Limpa a tela (WIN)
+CTRL+C - para o processo
 clear - Limpa a tela (MAC)
 mkdir - comando para criar uma ou mais pastas ao mesmo tempo. Para criar várias pastas, separar com espaço.
-cd "nome da pasta" - acessa a pasta criada
-touch "nome" - cria arquivos dentro de uma pasta. Pode criar vários separando os nomes com espaço.
+cd nome da pasta - acessa a pasta criada
+touch nome - cria arquivos dentro de uma pasta. Pode criar vários separando os nomes com espaço.
 explorer . - abre a pasta atual (WIN)
 open . - abre a pasta atual (MAC)
 
@@ -25,6 +30,11 @@ git status - mostra tudo o que foi alterado
 git add . - adiciona tudo dentro da pasta no git
 git commit -m "nome" - identifica as mudanças feitas
 git push origin master - adiciona os arquivos EFETIVAMENTE no GIT. precisa informar login e senha
+
+
+INICIANDO UM PROJETO:
+
+npm init - inicia a configuração de um projeto novo. Cria um project.json com todas as infos e licenças do projeto.
 
 Visual Studio Code - alternativa ao Sublime. ALT + setas fazem mágica
 
