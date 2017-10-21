@@ -1,0 +1,15 @@
+.flex {
+    /* justify-content: flex-start; */
+    /* Esse é o padrão */
+
+    /* justify-content: flex-end; */
+    /* Poe no final, sem inverter os itens */
+
+    /* justify-content: center; */
+
+    /* justify-content: space-between; */
+    /* Cria um espaçamento igual entre os elementos. Mantendo o primeiro grudado no início e o último no final */
+
+    justify-content: space-around;
+    /* Cria um espaçamento entre os elementos. Os espaçamentos do meio sao duas vezes que o do início e o final */
+}

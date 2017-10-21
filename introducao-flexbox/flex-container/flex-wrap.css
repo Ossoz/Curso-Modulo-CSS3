@@ -1,0 +1,9 @@
+.flex {
+    /* flex-wrap: nowrap; Esse é o padrão. Não permite a quebra de linha ajustando o tamanho das DIVs para encaixar tudo, mudando o layout */
+
+    flex-wrap: wrap;
+    /* Quebra a linha assim que um dos flex itens nao puder mais ser compactado */
+
+    /* flex-wrap: wrap-reverse; */
+    /* Quebra a linha assim que um dos itens não puder ser mais compactado. A quebra é na direção oposta. */
+}

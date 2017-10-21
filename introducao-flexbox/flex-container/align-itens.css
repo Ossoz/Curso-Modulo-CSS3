@@ -1,0 +1,18 @@
+.container {
+   height: 70vh;
+}
+
+.flex {
+    /* align-items: flex-start; */
+    /* Alinha no começo (vertical) */
+    /* align-items: flex-end; */
+    /* Alinha no final (vertical) */
+    align-items: center;
+    /* Alinha no MEIO (vertical) */
+
+    /* align-items: stretch; */
+    /* Estica todos os itens. Mas cada item não pode ter tamanho definido, senão não funciona */
+
+    /* align-items: baseline; */
+    /* alinha os itens de acordo com a linha base da tipografia! */
+}
