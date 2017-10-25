@@ -11,13 +11,13 @@ O Bootstrap 3 usa FLOAT, que é para IE 10 e abaixo e versoes antigas de outros 
 4 FORMAS DE DOWNLOAD:
 
 1) Compilado: é a versão de distribuição. Para quem quer usar sem alterar nada ou pouca coisa. Perfeita para iniciantes ou se vc quer algo rápido.
-2) Souce: versão de desenvolvimento. para quem quer mexer mais a fundo.
+2) Source: versão de desenvolvimento. para quem quer mexer mais a fundo.
 3) CDN: Versão que importa direto do site do Bootstrap. É usado apenas para estudar, pois depende totalmente do site alheio.
 
 4) Package Managers: a forma mais profissional. Instala pacotes na Máquina para usar códigos que outras pessoas desenvolveram.
 
 INICIANDO UM PROJETO:
-npm init - inicia a configuração de um projeto novo. Cria um project.json com todas as infos e licenças do projeto.
+npm init - inicia a configuração de um projeto novo. Cria um project.json com todas as infos e licenças do projeto. Precisa ter o Node.js instalado (ele poe o npm automaticamente)
 
 NPM - É um intalador de pacotes (ex. Plug in do Photoshop)
 Para instalar o npm pelo terminal: $ npm install bootstrap@4.0.0-beta.2 --save (o $ indica que é um comando para Terminal)
